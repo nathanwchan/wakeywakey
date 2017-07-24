@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D80EA58E1F268F9C00FD05AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80EA58D1F268F9C00FD05AB /* AppDelegate.swift */; };
+		D80EA5901F268F9C00FD05AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80EA58F1F268F9C00FD05AB /* ViewController.swift */; };
+		D80EA5931F268F9C00FD05AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80EA5911F268F9C00FD05AB /* Main.storyboard */; };
+		D80EA5951F268F9C00FD05AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D80EA5941F268F9C00FD05AB /* Assets.xcassets */; };
+		D80EA5981F268F9C00FD05AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80EA5961F268F9C00FD05AB /* LaunchScreen.storyboard */; };
+		D80EA59D1F268F9D00FD05AB /* wakeywakey WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D80EA59C1F268F9D00FD05AB /* wakeywakey WatchKit App.app */; };
+		D80EA5A31F268F9D00FD05AB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80EA5A11F268F9D00FD05AB /* Interface.storyboard */; };
+		D80EA5A51F268F9D00FD05AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D80EA5A41F268F9D00FD05AB /* Assets.xcassets */; };
+		D80EA5AC1F268F9D00FD05AB /* wakeywakey WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D80EA5AB1F268F9D00FD05AB /* wakeywakey WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D80EA5B31F268F9D00FD05AB /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80EA5B21F268F9D00FD05AB /* InterfaceController.swift */; };
+		D80EA5B51F268F9D00FD05AB /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80EA5B41F268F9D00FD05AB /* ExtensionDelegate.swift */; };
+		D80EA5B71F268F9D00FD05AB /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80EA5B61F268F9D00FD05AB /* NotificationController.swift */; };
+		D80EA5B91F268F9D00FD05AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D80EA5B81F268F9D00FD05AB /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D80EA59E1F268F9D00FD05AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D80EA5821F268F9C00FD05AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D80EA59B1F268F9D00FD05AB;
+			remoteInfo = "wakeywakey WatchKit App";
+		};
+		D80EA5AD1F268F9D00FD05AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D80EA5821F268F9C00FD05AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D80EA5AA1F268F9D00FD05AB;
+			remoteInfo = "wakeywakey WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D80EA5C01F268F9D00FD05AB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D80EA5AC1F268F9D00FD05AB /* wakeywakey WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80EA5C41F268F9D00FD05AB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D80EA59D1F268F9D00FD05AB /* wakeywakey WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D80EA58A1F268F9C00FD05AB /* wakeywakey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wakeywakey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80EA58D1F268F9C00FD05AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D80EA58F1F268F9C00FD05AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D80EA5921F268F9C00FD05AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D80EA5941F268F9C00FD05AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D80EA5971F268F9C00FD05AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D80EA5991F268F9C00FD05AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D80EA59C1F268F9D00FD05AB /* wakeywakey WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wakeywakey WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80EA5A21F268F9D00FD05AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D80EA5A41F268F9D00FD05AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D80EA5A61F268F9D00FD05AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D80EA5AB1F268F9D00FD05AB /* wakeywakey WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "wakeywakey WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80EA5B11F268F9D00FD05AB /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		D80EA5B21F268F9D00FD05AB /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		D80EA5B41F268F9D00FD05AB /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		D80EA5B61F268F9D00FD05AB /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		D80EA5B81F268F9D00FD05AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D80EA5BA1F268F9D00FD05AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D80EA5871F268F9C00FD05AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80EA5A81F268F9D00FD05AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D80EA5811F268F9C00FD05AB = {
+			isa = PBXGroup;
+			children = (
+				D80EA58C1F268F9C00FD05AB /* wakeywakey */,
+				D80EA5A01F268F9D00FD05AB /* wakeywakey WatchKit App */,
+				D80EA5AF1F268F9D00FD05AB /* wakeywakey WatchKit Extension */,
+				D80EA58B1F268F9C00FD05AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D80EA58B1F268F9C00FD05AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D80EA58A1F268F9C00FD05AB /* wakeywakey.app */,
+				D80EA59C1F268F9D00FD05AB /* wakeywakey WatchKit App.app */,
+				D80EA5AB1F268F9D00FD05AB /* wakeywakey WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D80EA58C1F268F9C00FD05AB /* wakeywakey */ = {
+			isa = PBXGroup;
+			children = (
+				D80EA58D1F268F9C00FD05AB /* AppDelegate.swift */,
+				D80EA58F1F268F9C00FD05AB /* ViewController.swift */,
+				D80EA5911F268F9C00FD05AB /* Main.storyboard */,
+				D80EA5941F268F9C00FD05AB /* Assets.xcassets */,
+				D80EA5961F268F9C00FD05AB /* LaunchScreen.storyboard */,
+				D80EA5991F268F9C00FD05AB /* Info.plist */,
+			);
+			path = wakeywakey;
+			sourceTree = "<group>";
+		};
+		D80EA5A01F268F9D00FD05AB /* wakeywakey WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D80EA5A11F268F9D00FD05AB /* Interface.storyboard */,
+				D80EA5A41F268F9D00FD05AB /* Assets.xcassets */,
+				D80EA5A61F268F9D00FD05AB /* Info.plist */,
+			);
+			path = "wakeywakey WatchKit App";
+			sourceTree = "<group>";
+		};
+		D80EA5AF1F268F9D00FD05AB /* wakeywakey WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D80EA5B21F268F9D00FD05AB /* InterfaceController.swift */,
+				D80EA5B41F268F9D00FD05AB /* ExtensionDelegate.swift */,
+				D80EA5B61F268F9D00FD05AB /* NotificationController.swift */,
+				D80EA5B81F268F9D00FD05AB /* Assets.xcassets */,
+				D80EA5BA1F268F9D00FD05AB /* Info.plist */,
+				D80EA5B01F268F9D00FD05AB /* Supporting Files */,
+			);
+			path = "wakeywakey WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		D80EA5B01F268F9D00FD05AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D80EA5B11F268F9D00FD05AB /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D80EA5891F268F9C00FD05AB /* wakeywakey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80EA5C51F268F9D00FD05AB /* Build configuration list for PBXNativeTarget "wakeywakey" */;
+			buildPhases = (
+				D80EA5861F268F9C00FD05AB /* Sources */,
+				D80EA5871F268F9C00FD05AB /* Frameworks */,
+				D80EA5881F268F9C00FD05AB /* Resources */,
+				D80EA5C41F268F9D00FD05AB /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D80EA59F1F268F9D00FD05AB /* PBXTargetDependency */,
+			);
+			name = wakeywakey;
+			productName = wakeywakey;
+			productReference = D80EA58A1F268F9C00FD05AB /* wakeywakey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D80EA59B1F268F9D00FD05AB /* wakeywakey WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80EA5C11F268F9D00FD05AB /* Build configuration list for PBXNativeTarget "wakeywakey WatchKit App" */;
+			buildPhases = (
+				D80EA59A1F268F9D00FD05AB /* Resources */,
+				D80EA5C01F268F9D00FD05AB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D80EA5AE1F268F9D00FD05AB /* PBXTargetDependency */,
+			);
+			name = "wakeywakey WatchKit App";
+			productName = "wakeywakey WatchKit App";
+			productReference = D80EA59C1F268F9D00FD05AB /* wakeywakey WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D80EA5AA1F268F9D00FD05AB /* wakeywakey WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80EA5BD1F268F9D00FD05AB /* Build configuration list for PBXNativeTarget "wakeywakey WatchKit Extension" */;
+			buildPhases = (
+				D80EA5A71F268F9D00FD05AB /* Sources */,
+				D80EA5A81F268F9D00FD05AB /* Frameworks */,
+				D80EA5A91F268F9D00FD05AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "wakeywakey WatchKit Extension";
+			productName = "wakeywakey WatchKit Extension";
+			productReference = D80EA5AB1F268F9D00FD05AB /* wakeywakey WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D80EA5821F268F9C00FD05AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Nathan Chan";
+				TargetAttributes = {
+					D80EA5891F268F9C00FD05AB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3S86DJ63TR;
+						ProvisioningStyle = Automatic;
+					};
+					D80EA59B1F268F9D00FD05AB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3S86DJ63TR;
+						ProvisioningStyle = Automatic;
+					};
+					D80EA5AA1F268F9D00FD05AB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3S86DJ63TR;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D80EA5851F268F9C00FD05AB /* Build configuration list for PBXProject "wakeywakey" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D80EA5811F268F9C00FD05AB;
+			productRefGroup = D80EA58B1F268F9C00FD05AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D80EA5891F268F9C00FD05AB /* wakeywakey */,
+				D80EA59B1F268F9D00FD05AB /* wakeywakey WatchKit App */,
+				D80EA5AA1F268F9D00FD05AB /* wakeywakey WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D80EA5881F268F9C00FD05AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80EA5981F268F9C00FD05AB /* LaunchScreen.storyboard in Resources */,
+				D80EA5951F268F9C00FD05AB /* Assets.xcassets in Resources */,
+				D80EA5931F268F9C00FD05AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80EA59A1F268F9D00FD05AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80EA5A51F268F9D00FD05AB /* Assets.xcassets in Resources */,
+				D80EA5A31F268F9D00FD05AB /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80EA5A91F268F9D00FD05AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80EA5B91F268F9D00FD05AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D80EA5861F268F9C00FD05AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80EA5901F268F9C00FD05AB /* ViewController.swift in Sources */,
+				D80EA58E1F268F9C00FD05AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80EA5A71F268F9D00FD05AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80EA5B71F268F9D00FD05AB /* NotificationController.swift in Sources */,
+				D80EA5B51F268F9D00FD05AB /* ExtensionDelegate.swift in Sources */,
+				D80EA5B31F268F9D00FD05AB /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D80EA59F1F268F9D00FD05AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D80EA59B1F268F9D00FD05AB /* wakeywakey WatchKit App */;
+			targetProxy = D80EA59E1F268F9D00FD05AB /* PBXContainerItemProxy */;
+		};
+		D80EA5AE1F268F9D00FD05AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D80EA5AA1F268F9D00FD05AB /* wakeywakey WatchKit Extension */;
+			targetProxy = D80EA5AD1F268F9D00FD05AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D80EA5911F268F9C00FD05AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D80EA5921F268F9C00FD05AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D80EA5961F268F9C00FD05AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D80EA5971F268F9C00FD05AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D80EA5A11F268F9D00FD05AB /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D80EA5A21F268F9D00FD05AB /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D80EA5BB1F268F9D00FD05AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D80EA5BC1F268F9D00FD05AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D80EA5BE1F268F9D00FD05AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 3S86DJ63TR;
+				INFOPLIST_FILE = "wakeywakey WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathanchan.wakeywakey.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		D80EA5BF1F268F9D00FD05AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 3S86DJ63TR;
+				INFOPLIST_FILE = "wakeywakey WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathanchan.wakeywakey.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		D80EA5C21F268F9D00FD05AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3S86DJ63TR;
+				IBSC_MODULE = wakeywakey_WatchKit_Extension;
+				INFOPLIST_FILE = "wakeywakey WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathanchan.wakeywakey.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		D80EA5C31F268F9D00FD05AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3S86DJ63TR;
+				IBSC_MODULE = wakeywakey_WatchKit_Extension;
+				INFOPLIST_FILE = "wakeywakey WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathanchan.wakeywakey.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		D80EA5C61F268F9D00FD05AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3S86DJ63TR;
+				INFOPLIST_FILE = wakeywakey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathanchan.wakeywakey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D80EA5C71F268F9D00FD05AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3S86DJ63TR;
+				INFOPLIST_FILE = wakeywakey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathanchan.wakeywakey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D80EA5851F268F9C00FD05AB /* Build configuration list for PBXProject "wakeywakey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80EA5BB1F268F9D00FD05AB /* Debug */,
+				D80EA5BC1F268F9D00FD05AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D80EA5BD1F268F9D00FD05AB /* Build configuration list for PBXNativeTarget "wakeywakey WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80EA5BE1F268F9D00FD05AB /* Debug */,
+				D80EA5BF1F268F9D00FD05AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D80EA5C11F268F9D00FD05AB /* Build configuration list for PBXNativeTarget "wakeywakey WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80EA5C21F268F9D00FD05AB /* Debug */,
+				D80EA5C31F268F9D00FD05AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D80EA5C51F268F9D00FD05AB /* Build configuration list for PBXNativeTarget "wakeywakey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80EA5C61F268F9D00FD05AB /* Debug */,
+				D80EA5C71F268F9D00FD05AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D80EA5821F268F9C00FD05AB /* Project object */;
+}
