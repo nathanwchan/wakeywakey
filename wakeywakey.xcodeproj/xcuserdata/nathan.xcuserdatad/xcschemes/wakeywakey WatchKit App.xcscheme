@@ -5,6 +5,36 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D80EA59B1F268F9D00FD05AB"
+               BuildableName = "wakeywakey WatchKit App.app"
+               BlueprintName = "wakeywakey WatchKit App"
+               ReferencedContainer = "container:wakeywakey.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D80EA5891F268F9C00FD05AB"
+               BuildableName = "wakeywakey.app"
+               BlueprintName = "wakeywakey"
+               ReferencedContainer = "container:wakeywakey.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -13,6 +43,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D80EA59B1F268F9D00FD05AB"
+            BuildableName = "wakeywakey WatchKit App.app"
+            BlueprintName = "wakeywakey WatchKit App"
+            ReferencedContainer = "container:wakeywakey.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +65,27 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.Carousel"
+         RemotePath = "/wakeywakey WatchKit App">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D80EA59B1F268F9D00FD05AB"
+            BuildableName = "wakeywakey WatchKit App.app"
+            BlueprintName = "wakeywakey WatchKit App"
+            ReferencedContainer = "container:wakeywakey.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D80EA59B1F268F9D00FD05AB"
+            BuildableName = "wakeywakey WatchKit App.app"
+            BlueprintName = "wakeywakey WatchKit App"
+            ReferencedContainer = "container:wakeywakey.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +95,27 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.Carousel"
+         RemotePath = "/wakeywakey WatchKit App">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D80EA59B1F268F9D00FD05AB"
+            BuildableName = "wakeywakey WatchKit App.app"
+            BlueprintName = "wakeywakey WatchKit App"
+            ReferencedContainer = "container:wakeywakey.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D80EA59B1F268F9D00FD05AB"
+            BuildableName = "wakeywakey WatchKit App.app"
+            BlueprintName = "wakeywakey WatchKit App"
+            ReferencedContainer = "container:wakeywakey.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
