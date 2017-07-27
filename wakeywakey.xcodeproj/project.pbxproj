@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78BE998A303E5C46ADB11D0A /* Pods_wakeywakey_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5F1F154EF637A7E0EA9773 /* Pods_wakeywakey_WatchKit_Extension.framework */; };
 		D80EA58E1F268F9C00FD05AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80EA58D1F268F9C00FD05AB /* AppDelegate.swift */; };
 		D80EA5901F268F9C00FD05AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80EA58F1F268F9C00FD05AB /* ViewController.swift */; };
 		D80EA5931F268F9C00FD05AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80EA5911F268F9C00FD05AB /* Main.storyboard */; };
@@ -65,6 +66,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4645F593DE883F259AD2C822 /* Pods-wakeywakey WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wakeywakey WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wakeywakey WatchKit Extension/Pods-wakeywakey WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		8A5F1F154EF637A7E0EA9773 /* Pods_wakeywakey_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wakeywakey_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94561872E9B46DFE3169881D /* Pods-wakeywakey WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wakeywakey WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-wakeywakey WatchKit Extension/Pods-wakeywakey WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		AA2AB42CA472A8444341896D /* Pods_wakeywakey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wakeywakey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D80EA58A1F268F9C00FD05AB /* wakeywakey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wakeywakey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D80EA58D1F268F9C00FD05AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D80EA58F1F268F9C00FD05AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +88,8 @@
 		D80EA5B61F268F9D00FD05AB /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		D80EA5B81F268F9D00FD05AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D80EA5BA1F268F9D00FD05AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8708FB71F2A95D30066C206 /* Pods_wakeywakey.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_wakeywakey.framework; path = "Pods/../build/Debug-iphoneos/Pods_wakeywakey.framework"; sourceTree = "<group>"; };
+		D8708FB91F2A96180066C206 /* JumpingJacker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JumpingJacker.framework; path = "../../../Library/Developer/Xcode/DerivedData/wakeywakey-afezcwipjektkqfluhizhjltelte/Build/Products/Debug-iphoneos/JumpingJacker/JumpingJacker.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +104,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78BE998A303E5C46ADB11D0A /* Pods_wakeywakey_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E06D7E4E17E047AAC181104C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25EDCE2EA648E6D992A80893 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4645F593DE883F259AD2C822 /* Pods-wakeywakey WatchKit Extension.debug.xcconfig */,
+				94561872E9B46DFE3169881D /* Pods-wakeywakey WatchKit Extension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D075675C35458F73B42833A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8708FB91F2A96180066C206 /* JumpingJacker.framework */,
+				D8708FB71F2A95D30066C206 /* Pods_wakeywakey.framework */,
+				AA2AB42CA472A8444341896D /* Pods_wakeywakey.framework */,
+				8A5F1F154EF637A7E0EA9773 /* Pods_wakeywakey_WatchKit_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D80EA5811F268F9C00FD05AB = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +145,8 @@
 				D80EA5A01F268F9D00FD05AB /* wakeywakey WatchKit App */,
 				D80EA5AF1F268F9D00FD05AB /* wakeywakey WatchKit Extension */,
 				D80EA58B1F268F9C00FD05AB /* Products */,
+				25EDCE2EA648E6D992A80893 /* Pods */,
+				D075675C35458F73B42833A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -195,6 +232,7 @@
 			buildPhases = (
 				D80EA59A1F268F9D00FD05AB /* Resources */,
 				D80EA5C01F268F9D00FD05AB /* Embed App Extensions */,
+				E06D7E4E17E047AAC181104C /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -210,9 +248,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D80EA5BD1F268F9D00FD05AB /* Build configuration list for PBXNativeTarget "wakeywakey WatchKit Extension" */;
 			buildPhases = (
+				1B0D42EF30610E31C8C05848 /* [CP] Check Pods Manifest.lock */,
 				D80EA5A71F268F9D00FD05AB /* Sources */,
 				D80EA5A81F268F9D00FD05AB /* Frameworks */,
 				D80EA5A91F268F9D00FD05AB /* Resources */,
+				3D431645448A8501E8468209 /* [CP] Embed Pods Frameworks */,
+				17799E954CC511319DDE98F6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -299,6 +340,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17799E954CC511319DDE98F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wakeywakey WatchKit Extension/Pods-wakeywakey WatchKit Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B0D42EF30610E31C8C05848 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3D431645448A8501E8468209 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wakeywakey WatchKit Extension/Pods-wakeywakey WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D80EA5861F268F9C00FD05AB /* Sources */ = {
@@ -458,6 +547,7 @@
 		};
 		D80EA5BE1F268F9D00FD05AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4645F593DE883F259AD2C822 /* Pods-wakeywakey WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				DEVELOPMENT_TEAM = 3S86DJ63TR;
@@ -475,6 +565,7 @@
 		};
 		D80EA5BF1F268F9D00FD05AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94561872E9B46DFE3169881D /* Pods-wakeywakey WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				DEVELOPMENT_TEAM = 3S86DJ63TR;
@@ -531,6 +622,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3S86DJ63TR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = wakeywakey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nathanchan.wakeywakey;
@@ -544,6 +639,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3S86DJ63TR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = wakeywakey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nathanchan.wakeywakey;
@@ -571,6 +670,7 @@
 				D80EA5BF1F268F9D00FD05AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D80EA5C11F268F9D00FD05AB /* Build configuration list for PBXNativeTarget "wakeywakey WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -579,6 +679,7 @@
 				D80EA5C31F268F9D00FD05AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D80EA5C51F268F9D00FD05AB /* Build configuration list for PBXNativeTarget "wakeywakey" */ = {
 			isa = XCConfigurationList;
@@ -587,6 +688,7 @@
 				D80EA5C71F268F9D00FD05AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
